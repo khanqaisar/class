@@ -7,15 +7,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class Genderinfo extends AppCompatActivity {
-    Button next;
+    Button nexte;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_genderinfo);
 
-        next =(Button)findViewById(R.id.next);
-        next.setOnClickListener(new View.OnClickListener() {
+        nexte =(Button)findViewById(R.id.nexte);
+        nexte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent ex = new Intent(getApplicationContext(),Explorer.class);
